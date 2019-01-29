@@ -34,7 +34,7 @@ header {
 }
 
 .top-nav {
-    display:flex;
+    display: flex;
     margin-top: 4px;
     margin-left: 9px;
 }
@@ -51,9 +51,7 @@ header {
 }
 
 #login {
-    display: flex;
     margin-left: auto;
-    margin-top: 4px;
     margin-right: 5px;
 }
 
@@ -143,6 +141,25 @@ footer a {
 }
 
 /* Log Into Account */
-.log-in {
+#log-in {
     display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+#log-in h3 {
+    margin: 5px 0 25px 3px;
+}
+
+#log-in button {
+    margin-top: 15px;
+}
+
+
+#log-in .container-1, .container-2 {
+    margin: 15px 0;
+}
+
+#forgot-pwd {
+    padding: 15px 0;
 }
